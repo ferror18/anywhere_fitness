@@ -1,0 +1,15 @@
+.hero{
+    background-image: url("../../../public/hero.png");
+    background-size:  cover;
+    grid-column: span 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.heroItem{
+    color: white;
+    stroke: black;
+    font-size: 3rem;
+}

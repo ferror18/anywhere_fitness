@@ -1,5 +1,17 @@
+/* 
+Here it is the global styles
+
+*/
+
+:root{
+  --bgColor1: #58a4b0;
+  --bgColor2: #a9bcd0;
+  --acColor1: #373f51;
+}
+
 body {
   margin: 0;
+  background-color: var(--bgColor2);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
